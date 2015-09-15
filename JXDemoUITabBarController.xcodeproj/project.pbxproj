@@ -14,6 +14,11 @@
 		C754C5291BA7CFBE00ACAAB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C754C5281BA7CFBE00ACAAB1 /* Images.xcassets */; };
 		C754C52C1BA7CFBE00ACAAB1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C754C52A1BA7CFBE00ACAAB1 /* LaunchScreen.xib */; };
 		C754C5381BA7CFBE00ACAAB1 /* JXDemoUITabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C754C5371BA7CFBE00ACAAB1 /* JXDemoUITabBarControllerTests.m */; };
+		C754C5431BA7D42E00ACAAB1 /* JXTBC.m in Sources */ = {isa = PBXBuildFile; fileRef = C754C5421BA7D42E00ACAAB1 /* JXTBC.m */; };
+		C754C5461BA7D65D00ACAAB1 /* JXOneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C754C5451BA7D65D00ACAAB1 /* JXOneVC.m */; };
+		C754C5491BA7D67500ACAAB1 /* JXTwoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C754C5481BA7D67500ACAAB1 /* JXTwoVC.m */; };
+		C754C54C1BA7D68A00ACAAB1 /* JXThreeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C754C54B1BA7D68A00ACAAB1 /* JXThreeVC.m */; };
+		C754C54F1BA7D69A00ACAAB1 /* JXFourVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C754C54E1BA7D69A00ACAAB1 /* JXFourVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,16 @@
 		C754C5311BA7CFBE00ACAAB1 /* JXDemoUITabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXDemoUITabBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C754C5361BA7CFBE00ACAAB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C754C5371BA7CFBE00ACAAB1 /* JXDemoUITabBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXDemoUITabBarControllerTests.m; sourceTree = "<group>"; };
+		C754C5411BA7D42E00ACAAB1 /* JXTBC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXTBC.h; sourceTree = "<group>"; };
+		C754C5421BA7D42E00ACAAB1 /* JXTBC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXTBC.m; sourceTree = "<group>"; };
+		C754C5441BA7D65D00ACAAB1 /* JXOneVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXOneVC.h; sourceTree = "<group>"; };
+		C754C5451BA7D65D00ACAAB1 /* JXOneVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXOneVC.m; sourceTree = "<group>"; };
+		C754C5471BA7D67500ACAAB1 /* JXTwoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXTwoVC.h; sourceTree = "<group>"; };
+		C754C5481BA7D67500ACAAB1 /* JXTwoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXTwoVC.m; sourceTree = "<group>"; };
+		C754C54A1BA7D68A00ACAAB1 /* JXThreeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXThreeVC.h; sourceTree = "<group>"; };
+		C754C54B1BA7D68A00ACAAB1 /* JXThreeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXThreeVC.m; sourceTree = "<group>"; };
+		C754C54D1BA7D69A00ACAAB1 /* JXFourVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXFourVC.h; sourceTree = "<group>"; };
+		C754C54E1BA7D69A00ACAAB1 /* JXFourVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXFourVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +98,16 @@
 			children = (
 				C754C51F1BA7CFBE00ACAAB1 /* AppDelegate.h */,
 				C754C5201BA7CFBE00ACAAB1 /* AppDelegate.m */,
-				C754C5221BA7CFBE00ACAAB1 /* ViewController.h */,
-				C754C5231BA7CFBE00ACAAB1 /* ViewController.m */,
-				C754C5251BA7CFBE00ACAAB1 /* Main.storyboard */,
-				C754C5281BA7CFBE00ACAAB1 /* Images.xcassets */,
-				C754C52A1BA7CFBE00ACAAB1 /* LaunchScreen.xib */,
+				C754C5411BA7D42E00ACAAB1 /* JXTBC.h */,
+				C754C5421BA7D42E00ACAAB1 /* JXTBC.m */,
+				C754C5441BA7D65D00ACAAB1 /* JXOneVC.h */,
+				C754C5451BA7D65D00ACAAB1 /* JXOneVC.m */,
+				C754C5471BA7D67500ACAAB1 /* JXTwoVC.h */,
+				C754C5481BA7D67500ACAAB1 /* JXTwoVC.m */,
+				C754C54A1BA7D68A00ACAAB1 /* JXThreeVC.h */,
+				C754C54B1BA7D68A00ACAAB1 /* JXThreeVC.m */,
+				C754C54D1BA7D69A00ACAAB1 /* JXFourVC.h */,
+				C754C54E1BA7D69A00ACAAB1 /* JXFourVC.m */,
 				C754C51B1BA7CFBE00ACAAB1 /* Supporting Files */,
 			);
 			path = JXDemoUITabBarController;
@@ -96,6 +116,11 @@
 		C754C51B1BA7CFBE00ACAAB1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C754C5221BA7CFBE00ACAAB1 /* ViewController.h */,
+				C754C5231BA7CFBE00ACAAB1 /* ViewController.m */,
+				C754C5251BA7CFBE00ACAAB1 /* Main.storyboard */,
+				C754C5281BA7CFBE00ACAAB1 /* Images.xcassets */,
+				C754C52A1BA7CFBE00ACAAB1 /* LaunchScreen.xib */,
 				C754C51C1BA7CFBE00ACAAB1 /* Info.plist */,
 				C754C51D1BA7CFBE00ACAAB1 /* main.m */,
 			);
@@ -220,8 +245,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C754C5241BA7CFBE00ACAAB1 /* ViewController.m in Sources */,
+				C754C5431BA7D42E00ACAAB1 /* JXTBC.m in Sources */,
+				C754C54C1BA7D68A00ACAAB1 /* JXThreeVC.m in Sources */,
 				C754C5211BA7CFBE00ACAAB1 /* AppDelegate.m in Sources */,
+				C754C54F1BA7D69A00ACAAB1 /* JXFourVC.m in Sources */,
+				C754C5461BA7D65D00ACAAB1 /* JXOneVC.m in Sources */,
 				C754C51E1BA7CFBE00ACAAB1 /* main.m in Sources */,
+				C754C5491BA7D67500ACAAB1 /* JXTwoVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
